@@ -1,0 +1,20 @@
+{
+  "name": "pg-tutorial",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a quick postgreSQL tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
